@@ -39,7 +39,8 @@
         "allow-pascal-case"
       ],
       "align": [true, "statements"],
-      "semicolon": [true, "never"]
+      "semicolon": [true, "never"],
+      "allowSyntheticDefaultImports": true
     }
   }
   

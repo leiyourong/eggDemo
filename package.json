@@ -4,7 +4,7 @@
   "description": "egg demo",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev",
+    "dev": "egg-bin dev -r egg-ts-helper/register",
     "test": "egg-bin test",
     "cov": "egg-bin cov"
   },
@@ -32,6 +32,7 @@
   "devDependencies": {
     "egg-bin": "^4.8.1",
     "egg-mock": "^3.19.3",
+    "egg-ts-helper": "^1.9.2",
     "tslint": "^5.11.0",
     "typescript": "^3.0.1"
   }
