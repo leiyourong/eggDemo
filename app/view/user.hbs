@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Handlebars</title>
+  </head>
+  <body>
+    <div>用户列表：</div>
+    <ul class="users">
+      {{#each users}}
+        <div> {{this.name}} - {{this.age}}</div>
+      {{/each}}
+    </ul>
+  </body>
+</html>

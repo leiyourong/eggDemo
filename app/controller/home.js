@@ -1,7 +1,9 @@
-import { Controller } from 'egg'
+const Controller = require('egg').Controller
 
-export default class HomeController extends Controller {
-    async index() {
-        this.ctx.body = 'Hello world'
-    }
+class HomeController extends Controller {
+  async index() {
+    this.ctx.body = 'Hello world'
+  }
 }
+
+module.exports = HomeController

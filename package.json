@@ -4,7 +4,9 @@
   "description": "egg demo",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,12 @@
   },
   "homepage": "https://github.com/leiyourong/eggDemo#readme",
   "dependencies": {
-    "egg": "^2.10.0"
+    "egg": "^2.10.0",
+    "egg-view-handlebars": "^2.0.1",
+    "moment": "^2.22.2"
   },
   "devDependencies": {
-    "egg-bin": "^4.8.1"
+    "egg-bin": "^4.8.1",
+    "egg-mock": "^3.19.3"
   }
 }
