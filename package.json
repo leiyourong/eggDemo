@@ -8,6 +8,9 @@
     "test": "egg-bin test",
     "cov": "egg-bin cov"
   },
+  "egg": {
+    "typescript": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leiyourong/eggDemo.git"
@@ -28,6 +31,8 @@
   },
   "devDependencies": {
     "egg-bin": "^4.8.1",
-    "egg-mock": "^3.19.3"
+    "egg-mock": "^3.19.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
   }
 }
