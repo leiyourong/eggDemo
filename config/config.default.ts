@@ -6,8 +6,7 @@ export default {
         defaultExtension: '.hbs',
         mapping: {
             '.hbs': 'handlebars',
-        }
+        },
     },
-    middleware: ['log']
+    middleware: ['log'],
 }
-
