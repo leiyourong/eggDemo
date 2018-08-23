@@ -2,7 +2,7 @@ import { Service } from 'egg'
 
 export default class UserService extends Service {
     async list (page: number) {
-        if (page === 1) {
+        if (page == 1) {
             return [{
                 name: '张XX',
                 age: 99,

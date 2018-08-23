@@ -1,4 +1,7 @@
-export default () => {
+import { Application } from 'egg';
+
+export default (options, app: Application) => {
+    app.logger.debug(options.args)
     // options, app
     return async function logMiddleware(ctx, next) {
         const request = ctx.request

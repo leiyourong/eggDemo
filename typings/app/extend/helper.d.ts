@@ -5,5 +5,6 @@ import ExtendObject from '../../../app/extend/helper';
 declare module 'egg' {
   interface IHelper {
     formatDate: typeof ExtendObject.formatDate;
+    parseInt: typeof ExtendObject.parseInt;
   }
 }
