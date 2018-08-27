@@ -1,4 +1,4 @@
-export default appInfo => {
+export default (appInfo) => {
     // 此处改为你自己的 Cookie 安全字符串 - ?
     const config = {
         keys: '_456456456486421_4545',
@@ -11,8 +11,14 @@ export default appInfo => {
         },
         middleware: ['log', 'error'],
         log: {
-            args: appInfo.env
-        }
+            args: appInfo.env,
+        },
+        mongoose: {
+            client: {
+                url: 'mongodb://127.0.0.1/demo',
+                options: {},
+            },
+        },
     }
     return config
 }

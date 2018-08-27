@@ -3,3 +3,4 @@
 
 import 'egg-view-handlebars';
 import 'egg-validate';
+import 'egg-mongoose';
